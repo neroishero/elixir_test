@@ -1,0 +1,9 @@
+{application,server,
+             [{applications,[kernel,stdlib,elixir,logger,cowboy,plug,
+                             logger_file_backend,mariaex,chronos,json,ecto]},
+              {description,"server"},
+              {modules,['Elixir.Mix.Tasks.DebugClient','Elixir.Server']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger,cowboy,plug,logger_file_backend,
+                                   mariaex]}]}.
